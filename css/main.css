@@ -17,7 +17,7 @@ body {
  }
  .nav-link:hover {
      background: transparent !important;
-     color: #AD91FF !important;
+     color: #7289da !important;
      font-weight: bold !important;
  }
 
@@ -92,7 +92,7 @@ body {
 
 .features .subtitle {
     font-size: 20px !important;
-    color: #a2a8bd;
+    color: #ffffff;
 }
 
 .features .card-body {
@@ -138,7 +138,7 @@ body {
 
 .statistics .subtitle {
     font-size: 20px !important;
-    color: #a2a8bd;
+    color: #ffffff;
 }
 
 .card.statistic {

@@ -1,0 +1,288 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #1D1E28;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    border-top: 6px #7289da solid !important;
+    font-size: 16px;
+}
+
+.nav-link {
+     font-size: 14px !important;
+     background: transparent !important;
+     font-family: Lato, sans-serif !important;
+     text-transform: capitalize !important;
+ }
+ .nav-link:hover {
+     background: transparent !important;
+     color: #7289da !important;
+     font-weight: bold !important;
+ }
+
+ .login-btn {
+     border: 2px solid #7289da !important;
+     font-size: 10px !important;
+ }
+ .login-btn:hover {
+     background: #7289da !important;
+ }
+.navbar {
+    box-shadow: none !important
+}
+
+.navbar-brand {
+    font-size: 25px !important
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+
+.btn {
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.btn-primary {
+    background-color: #7289da!important
+}
+.btn-secondary {
+    background-color: #2C2F33 !important
+}
+.heading {
+    padding: 160px 50px !important;
+    color: #fff !important;
+    background-image: url("../assets/wavy-purple-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 300% !important;
+    background-repeat: no-repeat !important;
+}
+
+.title {
+    line-height: 90px !important;
+    margin-bottom: -2px !important;
+    font-size: 36px !important
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.685) !important;
+    font-size: 16px !important;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.features {
+    text-align: center !important;
+    background: #7289da !important;
+    padding: 60px 50px !important;
+    background-image: url("../assets/wavy-dark-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+.features .title {
+    font-size: 40px !important;
+    color: #ffffff !important;
+    line-height: 70px !important;
+}
+
+.features .subtitle {
+    font-size: 20px !important;
+    color: #a2a8bd;
+}
+
+.features .card-body {
+    text-align: left !important;
+}
+
+.features .card-title {
+    margin: 0 0 -3px !important;
+}
+.cards {
+    margin-top: 30px !important;
+}
+
+.card {
+    border-radius: 5px !important;
+    box-shadow: none !important;
+}
+
+.card-title {
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    color: #7289da !important;
+}
+
+.statistics {
+    text-align: center !important;
+    padding-top: 300px !important;
+}
+
+.statistics .card-body{
+    padding: 0 !important;
+    height: 280 !important;
+    width: 332 !important;
+    max-height: 280 !important;
+    max-width: 332 !important;
+}
+
+.statistics .title {
+    font-size: 40px !important;
+    color: #ffffff !important;
+    line-height: 70px !important;
+}
+
+.statistics .subtitle {
+    font-size: 20px !important;
+    color: #ffffff;
+}
+
+.card.statistic {
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #f7f7f7 !important;
+}
+
+
+.page_end {
+    background-image: url("../assets/wavy-light-by-nouridio.svg") !important;
+    background-position: bottom !important;
+    background-size: 200% !important;
+    background-repeat: no-repeat !important;
+}
+.start {
+    padding: 60px 50px !important
+}
+
+.start .card {
+    background: transparent !important;
+    color: #f6f9ff !important;
+}
+
+.features .card {
+    background: #1D1E28;
+    border-radius: 22px !important;
+    border: 4px solid #7289da;
+}
+.features .card-text {
+color: rgba(255, 255, 255, 0.46) !important
+}
+
+.features .card-body {
+    padding: 40px 40px 40px 30px !important;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    list-style:none;
+  }
+  body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+  }
+  ul,
+  ol{
+      margin: 0;
+      padding: 0;
+  }
+  .footer{
+    background-color:  #7289da ;
+  }
+  .container1{
+    padding: 20px 70px;
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    font-family:sans-serif;
+    text-align: center;
+  }
+
+  .col ul li{
+    border-bottom: 1px solid #7289da;
+  }
+
+  .col ul li:hover{
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    transition: all .8s ease;
+  }
+  .footer div h2{
+      padding: 0;
+      margin: 0;
+      margin-bottom: 10px;
+  }
+  .footer div ul li{
+    text-align: center;
+    padding: 10px 0;
+  }
+
+
+  .content__title{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .redes i{
+    font-size: 1.5em;
+    padding: 0 10px;
+  }
+
+  .links{
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .links .col:nth-child(2){
+    padding: 0 20px
+  }
+
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+
+  .logo__container{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .copy{
+    margin-right: 50px;
+    font-size: 1em;
+    font-weight: normal;
+  }
+
+  .add{
+    width: 100%;
+    display: block;
+    margin: 25px 0;
+    text-align: center;
+  }
+  .add a{
+    text-decoration: none;
+    width: 100px;
+    padding: 10px 35px;
+    color: #f1f1f1;
+    background-color: #7996ff;
+    box-shadow: 2px 2px 5px #fff;
+    border-radius: 5px;
+  }
+  .add:hover a{
+    box-shadow: 0 1px 5px #fff;
+    transition: all 1s ease;
+  }
